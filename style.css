@@ -7,6 +7,108 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.img-fluid {
+max-width: 100% !important;
+height: auto !important;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block;
+    max-width: 80%;
+    height: auto;
+    margin-left: 35px;
+}
+
+.text-center.hero-bloc-text.tc-white{
+    font-size: 31px;
+}
+
+.insta2 {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 3rem;
+    margin-left: 87%;
+}
+
+.insta3 {
+    margin-left: 61%;
+    font-weight: bolder;
+    font-size: 13px;
+    margin-top: 21px;
+}
+
+.b4 {
+    position: relative;
+    right: 478%;
+    bottom: 12px;
+    text-decoration: none;
+}
+
+.b5 {
+    margin-right: 10px;
+    position: relative;
+    right: 24%;
+    top: 17px;
+}
+
+.web, .web2 {
+    color: white !important;
+}
+
+
+.h2222{
+    position: relative;
+    right: 193px;
+    top: 20px;
+}
+
+.contact {
+    
+        background: #F3976C;
+        color: black !important;
+        margin-left: 47%;
+        border-radius: 44px;
+        padding: 17px;
+        width: 14%;
+        display: block;
+        box-shadow: 1px 1px 4px;
+        font-weight: bold;
+        font-size: 19px;
+    }
+
+.insta {
+    display: flex;
+   
+}
+.h222{
+    width: 89%;
+    font-size: 31px;
+    margin: 32px;
+    padding: 37px;
+}
+.h22 {
+    width: 62%;
+    margin: auto;
+    padding: 15px;
+    position: relative;
+    left: 2%;
+    bottom: 22px;
+}
+
+.span {
+    font-size: 17px;
+    font-weight: bold;
+    color: #595959;
+}
+
+.web4 {
+    margin: 0px;
+    width: 42%;
+    position: relative;
+bottom: 37px;
+left: 36%;
+
+}
 a,
 button {
     transition: all .3s ease-in-out;
@@ -91,7 +193,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -119,22 +221,6 @@ a:hover {
     border-color: rgba(255, 255, 255, .2);
 }
 
-.d-bloc .a-btn,
-.d-bloc .navbar a,
-.d-bloc .navbar-brand,
-.d-bloc a .icon-sm,
-.d-bloc a .icon-md,
-.d-bloc a .icon-lg,
-.d-bloc a .icon-xl,
-.d-bloc h1 a,
-.d-bloc h2 a,
-.d-bloc h3 a,
-.d-bloc h4 a,
-.d-bloc h5 a,
-.d-bloc h6 a,
-.d-bloc p a {
-    color: rgba(255, 255, 255, .6);
-}
 
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
@@ -254,6 +340,7 @@ a:hover {
 
 .l-bloc .navbar-toggle .icon-bar {
     color: rgba(0, 0, 0, .6);
+    margin-top: 6px;
 }
 
 .d-bloc .panel .btn-wire,
@@ -305,6 +392,7 @@ a:hover {
     max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
+    width: 120%;
 }
 
 .navbar-brand img[src$=svg] {
@@ -324,8 +412,7 @@ a:hover {
 
 .nav > li {
     float: left;
-    margin-top: 4px;
-    font-size: 16px;
+
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -340,6 +427,10 @@ a:hover {
 .navbar-toggle {
     margin: 10px 10px 0 0;
     border: 0px;
+    position: relative;
+    left: 20%;
+    bottom: 25%;
+
 }
 
 .navbar-toggle:hover {
@@ -390,6 +481,7 @@ a:hover {
         float: none;
         display: inline-block;
     }
+   
     .nav-center .site-navigation {
         position: relative;
         width: 100%;
@@ -400,6 +492,12 @@ a:hover {
     .nav-center.mini-nav .navbar-toggle {
         float: none;
         margin: 10px auto 0;
+    }
+
+    .insta2 {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 3rem;
     }
 }
 
@@ -438,6 +536,8 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
+    font-weight: bold;
+    position: relative;
 }
 
 .mg-lg {
@@ -505,10 +605,6 @@ button {
     border-radius: 0 0 29px 29px;
 }
 
-.form-control {
-    border-color: rgba(0, 0, 0, .1);
-    box-shadow: none;
-}
 
 .scrollToTop {
     width: 40px;
@@ -677,12 +773,12 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
     max-width: 600px;
-    margin: auto auto auto auto;
+    margin-left: 29%;
 }
 
 .h1 {
@@ -701,7 +797,10 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+  position: relative;
+  left: 28%;
+
+    color: #333333 !important;
 }
 
 h2 {
@@ -709,6 +808,11 @@ h2 {
     line-height: 1.4em;
 }
 
+
+
+.text {
+    text-align: center;
+}
 h3 {
     font-size: 15px;
     text-transform: uppercase;
@@ -736,11 +840,13 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: black!important;
+    font-weight: bold;
 }
 
 .portfolio-thumb {
     margin-bottom: 24px;
+   
 }
 
 .portfolio-row {
@@ -772,15 +878,24 @@ h4 {
 
 .bgc-atomic-tangerine {
     background-color: #F3976C;
+    width: 109%;
+    position: relative;
+    right: 4%;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white !important;
+   text-align: center;
+    font-size: 19px;
+  
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: black!important;
+    margin-left: 6px;
+    border-radius: 19px;
+   
 }
 
 .btn-atomic-tangerine:hover {
@@ -810,7 +925,7 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img/dots-bg.webp");
 }
 
 .bg-lines-h2-bg {
@@ -818,17 +933,24 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+background-image: url("img/agence-la-panthere.webp");
+width: 109%;
+position: relative;
+right: 4%;
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.webp");
 }
 
-@media (max-width: 1024px) {
+
+
+@media (max-width: 1080px) {
     .bloc {
         padding-left: 20px;
         padding-right: 20px;
+        position: relative;
+        left: -3%;
     }
     .bloc.full-width-bloc,
     .bloc-tile-2.full-width-bloc .container,
@@ -837,6 +959,40 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+
+    .web3 {
+         
+        width: 92%;
+        background: #F3976C;
+        color: black !important;
+        margin-left: 6px;
+        border-radius: 19px;
+        padding: 16px;
+        margin-top: 14px;
+        font-size: 17px;
+        font-weight: bold;
+}
+
+.center-block {
+    position: relative;
+    right: 24%;
+  }
+
+  #bloc-1-hero h1 {
+    font-size: 32px;
+    position: relative;
+    right: 23%;
+  }
+
+  .cta-hero {
+    position: relative;
+    right: 23%;
+  }
+  portfolio-thumb {
+    margin-bottom: 24px;
+    position: relative;
+    left: 20%;
+  }
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
@@ -846,6 +1002,12 @@ h4 {
     .nav-center.navbar .nav {
         max-width: 100%
     }
+
+    .portfolio-thumb {
+        margin-bottom: 24px;
+        position: relative;
+        left: 20%;
+    }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
@@ -854,15 +1016,94 @@ h4 {
     }
 }
 
+
+@media all and (min-width:993px) and (max-width:2900px){
+    .web2 {
+        position: relative;
+    left: 34%;
+    font-size: 14px;
+    }
+    
+   
+
+    .web{
+        position: relative;
+        left: 40%;
+        font-size: 32px;
+        bottom: 7%;
+    }
+    
+    .web2, .web {
+        color: white !important;
+    }
+
+    .form-control {
+        border-color: rgba(0, 0, 0, 0.41);
+        box-shadow: none;
+        display: flex;
+        width: 100%;
+        padding: 7px;
+        margin-top: 9px;
+        border-radius: 7px;
+    }
+
+    .nav > li {
+   
+    margin-right: 51px;
+    text-decoration: none;
+    list-style: none;
+    position: relative;
+    left: 63%;
+    }
+
+    .container.bloc-lg{
+        margin-left: 12%;
+    }
+
+    .web3 {
+         
+            width: 100%;
+            background: #F3976C;
+            color: black !important;
+            margin-left: 6px;
+            border-radius: 19px;
+            padding: 16px;
+            margin-top: 14px;
+            font-size: 17px;
+            font-weight: bold;
+    }
+
+    
+
+}
+    
+
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
+    .web2 {
+        position: relative;
+    left: 34%;
+    font-size: 14px;
+    }
+    
+    .web{
+        position: relative;
+        left: 40%;
+        font-size: 32px;
+        bottom: 7%;
+    }
+    
+    .web2, .web {
+        color: white !important;
+    }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 992px) {
     .container {
         width: 100%;
+        margin-left: 3%;
     }
     .b-parallax {
         background-attachment: scroll;
@@ -881,12 +1122,124 @@ h4 {
         display: block;
         width: 100%;
     }
+
+    .b4 {
+        margin-right: 50px;
+        list-style: none;
+        position: relative;
+        left: -37%;
+    }
+
+    .b5 {
+        position: relative;
+        right: 46%;
+    }
+
+    .insta2 {
+        position: relative;
+        right: 75%;
+    }
+    .insta3 {
+        position: relative;
+        right: 29%;
+    }
+    .span {
+        width: 82%;
+        display: block;
+        margin-left: 11%;
+    }
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
     }
+
+    .h22 {
+        position: relative;
+        left: 2%;
+        bottom: 21px;
+    }
+    .portfolio-thumb {
+        margin-bottom: 24px;
+        position: relative;
+        left: -33%;
+        width: 100%;
+    }
+
+    .form-control {
+        width: 93%;
+        
+            border-color: rgba(0, 0, 0, 0.41);
+            box-shadow: none;
+            display: flex;
+            
+            padding: 7px;
+            margin-top: 9px;
+            border-radius: 7px;
+     }
+
+     .contact {
+        margin-left: 39%;
+        width: 30%;
+      }
+
+     .web4 {
+        position: relative;
+        left: 33%;
+        bottom: 51px;
+     }
+
+
+     .web2 {
+        position: relative;
+        left: -68%;
+        font-size: 18px;
+        width: 86%;
+        margin-left: 86%;
+    }
+    
+    .web{
+        position: relative;
+        left: 31%;
+        bottom: 0%;
+    }
+
+    .center-block {
+        position: relative;
+        right: 24%;
+      }
+
+      #bloc-1-hero h1 {
+        font-size: 32px;
+        position: relative;
+        right: 23%;
+      }
+
+      .cta-hero {
+        position: relative;
+        right: 23%;
+      }
+
+      .text {
+        position: relative;
+        right: 31%;
+        text-align: center;
+       
+      }
+
+      
+    .social {
+       
+        position: relative;
+        left: 23%;
+       }
+
+       .black-background {
+        position: relative;
+        right: 15%;
+      }
+
 }
 
 @media (max-width: 767px) {
@@ -1026,6 +1379,143 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    .portfolio-thumb {
+       margin: auto;
+       padding-left: 1px;
+       margin-left: 31%;
+    }
+
+    .social {
+       
+      position: relative;
+      left: 11%;
+     }
+    
+
+    .black-background {
+        position: relative;
+        right: 16.5%;
+      }
+
+
+    .h2222 {
+        position: relative;
+        left: 0%;
+    }
+    
+
+    .web4 {
+        width: 68%;
+        margin-right: 19%;
+        position: relative;
+        left: 21%;
+        top: -4px;
+    }
+
+    .web3{
+        width: 96%;
+        background: #F3976C;
+        color: black !important;
+        margin-left: 6px;
+        border-radius: 19px;
+        padding: 16px;
+        margin-top: 14px;
+        font-size: 17px;
+        font-weight: bold;
+    }
+
+    .web2 {
+        position: relative;
+    left: -78%;
+    font-size: 18px;
+    width: 86%;
+    margin-left: 86%;
+    }
+    
+    .web{
+        position: relative;
+        left: 11%;
+        bottom: 0%;
+    }
+
+    .form-control {
+        width: 95%;
+        
+            border-color: rgba(0, 0, 0, 0.41);
+            box-shadow: none;
+            display: flex;
+            
+            padding: 7px;
+            margin-top: 9px;
+            border-radius: 7px;
+        
+    }
+
+    .white {
+        color: white;
+        margin-left: 10%
+    }
+
+.sr-only{
+    position: absolute;
+width: 1px;
+height: 1px;
+padding: 0;
+margin: -1px;
+overflow: hidden;
+clip: rect(0, 0, 0, 0);
+border: 0;
+}
+
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+  }
+
+  .center-block {
+    position: relative;
+    right: 24%;
+  }
+
+  #bloc-1-hero h1 {
+    font-size: 32px;
+    position: rem;
+    position: relative;
+    right: 23%;
+  }
+
+  .cta-hero {
+    position: relative;
+    right: 23%;
+  }
+
+  .h22 {
+    position: relative;
+    left: 5%;
+  }
+
+  .span {
+    width: 73%;
+    font-size: 15px;
+    display: block;
+    position: relative;
+    left: 8%;
+  }
+
+ .text {
+    margin-top: 10px;
+margin-bottom: 20px;
+font-weight: bold;
+text-align: center;
+position: relative;
+right: 17%;
+ }
+
+
+
+
 }
 
 @media (max-width: 400px) {
@@ -1033,10 +1523,47 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    .portfolio-thumb {
+      
+        margin: auto;
+        padding-left: 1px;
+        margin-right: -4px;
+    }
+    .insta2 {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 3rem;
+        position: relative;
+        right: 80%;
+    }
+    insta3 {
+        position: relative;
+        right: 48%;
+        width: 100%;
+      }
 }
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+
+
+    .insta {
+        display: flex;
+        margin-left: 22%;
+    }
+
+    .insta3 {
+        width: 100%;
+        margin-left: 38%;
+    }
+
+    .b5 {
+        position: relative;
+        left: 10%;
+    }
+    .portfolio-thumb {
+        width: 70%;
     }
 }
